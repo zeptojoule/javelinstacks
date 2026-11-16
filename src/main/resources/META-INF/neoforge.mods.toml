@@ -1,0 +1,26 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "javelinstacks"
+version = "1.0.0"
+displayName = "Javelin Stacks"
+description = '''
+Faz com que qualquer item cujo ID termine em _javelin possa ser empilhado até 8.
+Javelins danificados saem da pilha e mantêm a própria durabilidade.
+'''
+
+[[dependencies.javelinstacks]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.javelinstacks]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
